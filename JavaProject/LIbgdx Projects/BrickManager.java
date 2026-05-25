@@ -3,12 +3,12 @@ import java.awt.*;
 // Manages the bricks in the game
 public class BrickManager {
 // Encapsulation
-    int bricks[][];
-    int brickWidth = 65, brickHeight = 20;
+   private int bricks[][];
+   private int brickWidth = 65, brickHeight = 20;
 
     Color[] mainRowColors = {Color.pink, Color.red, Color.green, Color.blue};
 
-    public BrickManager() {
+   private public BrickManager() {
         bricks = new int[9][9];
         initialize();
     }
