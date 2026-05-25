@@ -1,19 +1,26 @@
 import java.awt.*;
 
 // Manages the bricks in the game
+
 public class BrickManager {
 // Encapsulation
    private int bricks[][];
    private int brickWidth = 65, brickHeight = 20;
 
-    Color[] mainRowColors = {Color.pink, Color.red, Color.green, Color.blue};
+   private Color[] mainRowColors = {Color.pink, Color.red, Color.green, Color.blue};
 
-   private public BrickManager() {
+   public BrickManager() {
         bricks = new int[9][9];
         initialize();
     }
 
-   
+  //Getter
+    public int[][] getBricks(){
+        return bricks;}
+
+    public int getBrickWidth() {
+        return brickWidth;
+    }
     
 
     public void initialize() {
@@ -40,7 +47,7 @@ public class BrickManager {
 
                     if (i == 0)
                     g.setColor(Color.cyan);
-                    else if (i == 1) 
+                    else if  (i == 1) 
                     g.setColor(Color.orange);
                     else {
                         int idx = (i - 2) % mainRowColors.length;
