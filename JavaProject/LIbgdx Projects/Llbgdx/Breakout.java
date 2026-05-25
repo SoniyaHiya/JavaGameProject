@@ -203,14 +203,14 @@ public class Breakout extends JPanel implements KeyListener, ActionListener {
 
     public static void main(String[] args) {
 
-        JFrame fr = new JFrame("Breakout Game");
+        JFrame frame = new JFrame("Breakout Game");
         Breakout game = new Breakout();
 
-        fr.add(game);
-        fr.setSize(600, 500);
-        fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        fr.setLocationRelativeTo(null);
+        frame.add(game);
+        frame.setSize(600, 500);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
 
-        fr.setVisible(true);
+        frame.setVisible(true);
     }
 }
