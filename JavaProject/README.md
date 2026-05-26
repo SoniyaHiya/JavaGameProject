@@ -93,21 +93,21 @@ java Breakout
 ### Game Window
 
 <p align="center">
-  <img src="./Llbgdx Projects/assets/game_windows.png" width="700"/>
+  <img src="JavaProjec/Llbgdx%20Projects/assets/game%20_windows.png" width="700"/>
 </p>
 
 ### Game Assets
 
 <p align="center">
-  <img src="./Llbgdx Projects/assets/ball.jpeg" width="220"/>
-  <img src="./Llbgdx Projects/assets/brick.jpeg" width="220"/>
-  <img src="./Llbgdx Projects/assets/paddle.jpeg" width="220"/>
+  <img src="JavaProjec/Llbgdx%20Projects/assets/ball.jpeg" width="220"/>
+  <img src="JavaProjec/Llbgdx%20Projects/assets/brick.jpeg" width="220"/>
+  <img src="JavaProjec/Llbgdx%20Projects/assets/paddle.jpeg" width="220"/>
 </p>
 
 ### Game Over Screen
 
 <p align="center">
-  <img src="./Llbgdx Projects/assets/game_over_screen.png" width="700"/>
+  <img src="JavaProjec/Llbgdx%20Projects/assets/game%20_over_screen.png" width="700"/>
 </p>
 
 ---
