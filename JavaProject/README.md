@@ -93,7 +93,7 @@ java Breakout
 ### Game Window
 
 <p align="center">
-  <img src="JavaProject/Llbgdx Projects/assets/game windows.png" width="700"/>
+  <img src="JavaProject/Llbgdx Projects/assets/game_windows.png" width="700"/>
 </p>
 
 ### Game Assets
@@ -107,7 +107,7 @@ java Breakout
 ### Game Over Screen
 
 <p align="center">
-  <img src="JavaProject/Llbgdx Projects/assets/game over screen.png" width="700"/>
+  <img src="JavaProject/Llbgdx Projects/assets/game_over_screen.png" width="700"/>
 </p>
 
 ---
