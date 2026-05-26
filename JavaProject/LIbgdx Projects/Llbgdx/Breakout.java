@@ -1,26 +1,22 @@
-package Llbgdx;
-import javax.swing.*;
-
-import BrickManager;
-
+import javax.swing.*
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 
 public class Breakout extends JPanel implements KeyListener, ActionListener {
 
-    Ball ball;
-    Paddle paddle;
-    BrickManager bricks;
-    LevelManager levelManager;
+  private  Ball ball;
+  private   Paddle paddle;
+  private BrickManager bricks;
+  private  LevelManager levelManager;
 
-    boolean moveLeft = false, moveRight = false;
-    boolean play = true, paused = false;
+  private  boolean moveLeft = false, moveRight = false;
+  private  boolean play = true, paused = false;
 
-    int score = 0, highScore = 0;
+   private int score = 0, highScore = 0;
 
-    Timer timer;
-    String highScoreFile = "highscore.txt";
+   private Timer timer;
+   private  String highScoreFile = "highscore.txt";
 
     public Breakout() {
 
@@ -106,10 +102,10 @@ public class Breakout extends JPanel implements KeyListener, ActionListener {
 
             int totalBricks = 0;
 
-            for (int i = 0; i < bricks.Bricks().length; i++) {
-                for (int j = 0; j < bricks.Bricks()[i].length; j++) {
+            for (int i = 0; i < bricks.GetBricks().length; i++) {
+                for (int j = 0; j < bricks.GetBricks()[i].length; j++) {
 
-                    if (bricks.Bricks[i][j] == 1) {
+                    if (bricks.GetBricks[i][j] == 1) {
 
                         totalBricks++;
 
@@ -207,14 +203,14 @@ public class Breakout extends JPanel implements KeyListener, ActionListener {
 
     public static void main(String[] args) {
 
-        JFrame fr = new JFrame("Breakout Game");
+        JFrame frame = new JFrame("Breakout Game");
         Breakout game = new Breakout();
 
-        fr.add(game);
-        fr.setSize(600, 500);
-        fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        fr.setLocationRelativeTo(null);
+        frame.add(game);
+        frame.setSize(600, 500);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
 
-        fr.setVisible(true);
+        frame.setVisible(true);
     }
 }
