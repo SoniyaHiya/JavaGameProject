@@ -2,9 +2,20 @@ import java.awt.*;
 
 public class Paddle {
 
-    int x;
+    // Encapsulation  
+    
+   private  int x;
 
     public Paddle(int x) {
+        this.x = x;
+    }
+
+     // Getter
+    public int getX() {
+        return x;
+    }
+    // Setter
+    public void setX(int x) {
         this.x = x;
     }
 
