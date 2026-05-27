@@ -71,7 +71,8 @@ JavaProject/
 2. Navigate to the project folder:
 
 ```bash
-cd "JavaProject/Llbgdx Projects/Llbgdx"
+cd JavaProject
+cd "LIbgdx Projects/Llbgdx"
 ```
 
 3. Compile all Java files:
@@ -93,21 +94,21 @@ java Breakout
 ### Game Window
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/game%20_windows.png" width="700">
+  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/game%20_windows.png" width="400">
 </p>
 
 ### Game Assets
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/ball.jpeg" width="220">
-  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/brick.jpeg" width="220">
-  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/paddle.jpeg" width="220">
+  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/ball.jpeg" width="300">
+  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/brick.jpeg" width="300">
+  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/paddle.jpeg" width="300">
 </p>
 
 ### Game Over Screen
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/game%20_over_screen.png" width="700">
+  <img src="https://raw.githubusercontent.com/SoniyaHiya/JavaGameProject/Soniya/JavaProject/LIbgdx%20Projects/assets/game%20_over_screen.png" width="400">
 </p>
 
 ---
