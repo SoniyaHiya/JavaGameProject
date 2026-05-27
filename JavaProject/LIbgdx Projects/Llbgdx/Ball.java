@@ -25,7 +25,12 @@ public class Ball {
         g.setColor(Color.yellow);
         g.fillOval(x, y, 15, 15);
     }
-
+    
+   // Overloaded draw 
+    public void draw(Graphics g, Color color) {
+        g.setColor(color);
+        g.fillOval(x, y, 15, 15);
+    }
     public Rectangle getRect() {
         return new Rectangle(x, y, 15, 15);
     }
