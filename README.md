@@ -112,7 +112,7 @@ java Breakout
 
 ---
 
-## Future Improvements
+### Future Improvements
 
 - Multiple levels
 - Power-ups
@@ -121,8 +121,9 @@ java Breakout
 - Mouse control support
 - Pause / Resume
 
-##Contributers
-1.Soniya Mubasshir Hiya -2023831010
-2.Samia Rahman - 2023831046
+---
 
+## Contributors
 
+1. Soniya Mubasshir Hiya — 2023831010  
+2. Samia Rahman — 2023831046  
