@@ -16,12 +16,21 @@ public class Ball {
         x += xDir;
         y += yDir;
     }
-
+   //  Overloaded method 
+    public void move(int speedMultiplier) {
+        x += xDir * speedMultiplier;
+        y += yDir * speedMultiplier;
+    }
     public void draw(Graphics g) {
         g.setColor(Color.yellow);
         g.fillOval(x, y, 15, 15);
     }
-
+    
+   // Overloaded draw 
+    public void draw(Graphics g, Color color) {
+        g.setColor(color);
+        g.fillOval(x, y, 15, 15);
+    }
     public Rectangle getRect() {
         return new Rectangle(x, y, 15, 15);
     }
