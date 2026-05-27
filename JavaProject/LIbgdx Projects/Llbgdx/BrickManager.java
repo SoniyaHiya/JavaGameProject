@@ -1,4 +1,3 @@
-package Llbgdx;
 import java.awt.*;
 
 // Manages the bricks in the game

@@ -1,4 +1,4 @@
-import javax.swing.*
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -102,10 +102,10 @@ public class Breakout extends JPanel implements KeyListener, ActionListener {
 
             int totalBricks = 0;
 
-            for (int i = 0; i < bricks.GetBricks().length; i++) {
-                for (int j = 0; j < bricks.GetBricks()[i].length; j++) {
+            for (int i = 0; i < bricks.getBricks().length; i++) {
+                for (int j = 0; j < bricks.getBricks()[i].length; j++) {
 
-                    if (bricks.GetBricks[i][j] == 1) {
+                    if (bricks.getBricks()[i][j] == 1) {
 
                         totalBricks++;
 
