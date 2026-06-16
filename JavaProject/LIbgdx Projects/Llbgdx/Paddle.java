@@ -1,13 +1,13 @@
 import java.awt.*;
 
-public class Paddle {
+public class Paddle extends GameObject {
 
     // Encapsulation  
     
    private  int x;
 
     public Paddle(int x) {
-        this.x = x;
+        super(x,440):
     }
 
      // Getter

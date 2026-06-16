@@ -1,12 +1,11 @@
 import java.awt.*;
 
-public class Ball {
+public class Ball extends GameObject {
 
-    int x, y, xDir, yDir;
+    int  xDir, yDir;
 
     public Ball(int x, int y, int xDir, int yDir) {
-        this.x = x;
-        this.y = y;
+        super(x,y);
         this.xDir = xDir;
         this.yDir = yDir;
     }
