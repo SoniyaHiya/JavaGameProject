@@ -7,7 +7,7 @@ public class Paddle extends GameObject {
    private  int x;
 
     public Paddle(int x) {
-        super(x,440):
+        super(x,440);
     }
 
      // Getter
