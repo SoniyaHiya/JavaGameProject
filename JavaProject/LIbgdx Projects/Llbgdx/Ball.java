@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class Ball extends GameObject {
+public class Ball extends GameObject implements Drawable {
 
     int  xDir, yDir;
 
@@ -20,6 +20,7 @@ public class Ball extends GameObject {
         x += xDir * speedMultiplier;
         y += yDir * speedMultiplier;
     }
+     @Override
     public void draw(Graphics g) {
         g.setColor(Color.yellow);
         g.fillOval(x, y, 15, 15);

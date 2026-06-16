@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class Paddle extends GameObject {
+public class Paddle extends GameObject implements Drawable {
 
     // Encapsulation  
     
@@ -40,7 +40,7 @@ public class Paddle extends GameObject {
         if (x < 490)
             x += speed;
     }
-
+      @Override
     public void draw(Graphics g) {
         g.setColor(Color.green);
         g.fillRect(x, 440, 100, 10);

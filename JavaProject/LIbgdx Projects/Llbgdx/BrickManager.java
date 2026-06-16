@@ -2,7 +2,7 @@ import java.awt.*;
 
 // Manages the bricks in the game
 
-public class BrickManager {
+public class BrickManager implements Drawable {
 // Encapsulation
    private int bricks[][];
    private int brickWidth = 65, brickHeight = 20;
@@ -35,7 +35,7 @@ public class BrickManager {
     public void setBrickValue(int value, int row, int col) {
         bricks[row][col] = value;
     }
-
+       @Override
     public void draw(Graphics g) {
         int startX = 10, startY = 10;
 
